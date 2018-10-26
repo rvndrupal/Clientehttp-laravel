@@ -7,7 +7,7 @@
 
 <div class="list-group">
         <div class="list-group">
-            <a href="#" class="list-group-item ">Obtener todos los Estudiantes</a>
+            <a href="{{ route('estudiantes') }}" class="list-group-item ">Obtener todos los Estudiantes</a>
             <a href="#" class="list-group-item ">Obtener todos los Profesores</a>
             <a href="#" class="list-group-item ">Obtener todos los Cursos</a>
         </div>

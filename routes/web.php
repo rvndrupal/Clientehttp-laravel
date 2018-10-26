@@ -15,4 +15,6 @@ Route::get('/', function () {
     return view('principal');
 })->name('home');
 
+Route::get('/estudiantes','EstudiantesController@mostrarEstudiantes')->name('estudiantes');
+
 
